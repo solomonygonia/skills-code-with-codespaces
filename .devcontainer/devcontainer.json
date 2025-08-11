@@ -1,19 +1,20 @@
+
 {
   "name": "Codespace for Skills!",
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
-
   "remoteUser": "codespace",
   "overrideCommand": false,
   "customizations": {
-     "vscode": {
-         "extensions": [
-             "GitHub.copilot"
-         ]
-     },
-     "codespaces": {
-         "openFiles": [
-             "codespace.md"
-         ]
-     }
- }
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot"
+      ]
+    },
+    "codespaces": {
+      "openFiles": [
+        "codespace.md"
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'Container setup complete!'"
 }
